@@ -38,7 +38,7 @@ public class Deepweb{
                             letters[j]="ق";
                             break;    
                         case "ق":
-                            letters[j]="ك";
+                            letters[j]="ء";
                             break;
                         case "ز":
                             letters[j]="ظ";
@@ -51,7 +51,10 @@ public class Deepweb{
                             break;
                         case "ت":
                             letters[j]="ط";
-                            break;                    
+                            break;
+                        case "ي":
+                            letters[j]="";
+                            break;                        
                     }
                     words[i]=String.join("",letters);
                 } 
